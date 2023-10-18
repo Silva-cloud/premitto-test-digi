@@ -1,0 +1,50 @@
+.How-work-container {
+  margin-top: 100px;
+  max-width: 93%;
+}
+
+.How-work-container h1 {
+  font-weight: 550;
+}
+
+.geographic-site-img {
+  width: 40%;
+}
+
+.How-work-container .nav-tabs .nav-link {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  border-top: 4px solid rgb(230, 230, 230);
+  padding-top: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  color: inherit;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.How-work-container .nav-tabs {
+  border-bottom: 0;
+}
+
+.How-work-container .nav-tabs .active {
+  color: #8a1e86;
+  border-image: linear-gradient(to right, #8a1e86 0%, #fcb43a 90%) 1;
+}
+
+.btn-paragraph {
+  color: rgba(33, 37, 41, 0.6);
+  line-height: 1.5;
+}
+
+.How-work-container .nav-tabs .active .btn-paragraph {
+  color: #8a1e86;
+}
+
+.Blog-container {
+  margin-top: 100px;
+}

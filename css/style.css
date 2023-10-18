@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/* other css file imports */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("sections/header.css");
+@import url("sections/banner.css");
+@import url("sections/perks.css");
+@import url("sections/how-it-work.css");
+@import url("sections/blog.css");
+@import url("sections/final-banner-section.css");
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+  --primary-color: #b1454a;
+  --secondary-color: #121212;
+
+  --color-primary: #8a1e86;
+  --color-secondary: #fcb43a;
+  --color-text: #212529;
+  --bs-heading-color: #212529;
+  --bs-secondary-color: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*change the default button primary */
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--color-primary);
+  --bs-btn-border-color: var(--color-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--color-primary);
+  --bs-btn-hover-border-color: var(--color-primary);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--color-primary);
+  --bs-btn-active-border-color: var(--color-primary);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--color-primary);
+  --bs-btn-disabled-border-color: var(--color-primary);
+}

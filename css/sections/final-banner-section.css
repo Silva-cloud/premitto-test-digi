@@ -1,0 +1,59 @@
+.final-banner-container {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(252, 176, 69, 1) 70%
+  );
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-top: 200px;
+}
+
+.final-banner-container .banner-text {
+  margin-right: 0;
+}
+
+.final-banner-container h1 {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.banner-white-text {
+  display: block;
+  color: #fff;
+}
+
+.final-banner-container .mobile-app-links {
+  margin-top: 25px;
+  gap: 1rem;
+}
+
+.peremitto-text {
+  margin-top: 180px;
+}
+
+.premitto-img {
+  height: 3.5rem;
+}
+
+.bottom-nav-container .navlinks-container {
+  padding: 0;
+}
+
+.bottom-nav-container .nav-link {
+  font-weight: 500;
+}
+
+.footer .nav-hr {
+  margin-bottom: 0;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: rgba(20, 20, 20, 0.55);
+  font-weight: 500;
+}
+
+.footer svg {
+  color: black;
+}

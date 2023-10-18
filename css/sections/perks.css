@@ -1,0 +1,38 @@
+.perks-container {
+  margin-top: 88px;
+}
+
+.btn-gradiant {
+  background: rgb(252, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 180, 58, 1) 0%,
+    rgba(138, 30, 134, 1) 88%
+  );
+  border: none;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.btn-gradiant:hover {
+  color: #fff;
+}
+
+.perks-container h1 {
+  font-weight: 550;
+  margin-top: 36px;
+}
+
+.perks-container p {
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.perks-list-container {
+  margin-top: 100px;
+}
+
+.perks-image-list {
+  width: 61px;
+  height: 61px;
+}

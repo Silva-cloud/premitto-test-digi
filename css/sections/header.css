@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #fff;
+  padding-bottom: 0;
+}
+
+.navbar-brand-img {
+  height: 48px;
+}
+
+.nav-hr {
+  background-color: #000;
+  margin-top: 0;
+  height: 2px;
+  color: #000;
+}
