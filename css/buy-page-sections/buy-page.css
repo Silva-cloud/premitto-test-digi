@@ -1,0 +1,61 @@
+.buy-banner-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(138, 30, 134, 1) 0%,
+    rgba(252, 180, 58, 1) 95%
+  );
+  padding: 1rem 2.5rem;
+  margin-top: 64px;
+}
+
+.buy-banner-text {
+  font-weight: 590;
+  margin-top: 35px;
+}
+
+.buy-page-container .banner-gradiant-text {
+  display: inline;
+  background: #8a1e86;
+  background: linear-gradient(to right, #fcb43a 0%, #8a1e86 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buy-benifits {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.buy-benifits h3 .big-txt {
+  font-weight: 590;
+  font-size: 3rem;
+}
+
+.buy-benifits h3 .sm-txt {
+  font-size: 1.3rem;
+}
+
+.buy-benifits h6 {
+  font-size: 1rem;
+  word-spacing: 3px;
+}
+
+.benifits-list {
+  border-top: 2px solid black;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+.benifits-list p {
+  font-weight: 450;
+}
+
+.benifits-list p img {
+  height: 1.3rem;
+  margin-top: 5px;
+}
+
+.buy-benifits .btn {
+  color: black;
+  font-weight: 500;
+}

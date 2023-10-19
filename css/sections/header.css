@@ -7,6 +7,17 @@
   height: 48px;
 }
 
+.header-container .navbar-nav .nav-link:active {
+  color: #8a1e86cb;
+}
+.header-container .navbar-nav .nav-link:focus {
+  color: #8a1e86cb;
+}
+
+.header-container .navbar-nav .active {
+  color: #8a1e86cb;
+}
+
 .nav-hr {
   background-color: #000;
   margin-top: 0;

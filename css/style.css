@@ -7,6 +7,7 @@
 @import url("sections/how-it-work.css");
 @import url("sections/blog.css");
 @import url("sections/final-banner-section.css");
+@import url("buy-page-sections/buy-page.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {

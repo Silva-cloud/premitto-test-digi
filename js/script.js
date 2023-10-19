@@ -1,5 +1,25 @@
 import "bootstrap";
 
+// change active header navlink color
+
+document.addEventListener("DOMContentLoaded", function () {
+  const HeaderNavLinks = document.querySelectorAll(
+    ".header-container .navbar-nav  a, .navbar-brand"
+  );
+
+  const clickedHeaderNavLink =
+    HeaderNavLinks[localStorage.getItem("clickedHeaderNavLinkIndex")];
+
+  HeaderNavLinks.forEach((el, i) => {
+    if (el.classList.contains("active")) {
+      el.classList.remove("active");
+    }
+    clickedHeaderNavLink.classList.add("active");
+    el.addEventListener("click", function () {
+      localStorage.setItem("clickedHeaderNavLinkIndex", i);
+    });
+  });
+});
 // carousel code
 
 const carouselWidth =
@@ -7,7 +27,6 @@ const carouselWidth =
 
 const cardWidth =
   document.getElementsByClassName("carousel-item")[0].clientWidth;
-console.log(carouselWidth, cardWidth);
 
 const carouselNextButton = document.getElementsByClassName("carousel-next")[0];
 
@@ -15,13 +34,9 @@ const carouselPrevButton = document.getElementsByClassName("carousel-prev")[0];
 
 let scrollPosition = 0;
 
-console.log(scrollPosition);
-
 carouselNextButton.addEventListener("click", function () {
   if (scrollPosition < carouselWidth - cardWidth * 3) {
-    console.log("next");
     scrollPosition = scrollPosition + cardWidth;
-    console.log("scrollPosition", scrollPosition);
     document.getElementsByClassName("carousel-inner")[0].scrollLeft =
       scrollPosition;
   }
@@ -29,9 +44,7 @@ carouselNextButton.addEventListener("click", function () {
 
 carouselPrevButton.addEventListener("click", function () {
   if (scrollPosition > 0) {
-    console.log("prev");
     scrollPosition = scrollPosition - cardWidth;
-    console.log("scrollPosition", scrollPosition);
     document.getElementsByClassName("carousel-inner")[0].scrollLeft =
       scrollPosition;
   }
